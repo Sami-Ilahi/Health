@@ -11,7 +11,7 @@ export default function Footer() {
           <span>
             Developed by :{' '}
             <a
-              href="www.linkedin.com/in/sami-ilahi"
+              href="https://www.linkedin.com/in/sami-ilahi/"
               target="_blank"
               rel="noopener"
             >
