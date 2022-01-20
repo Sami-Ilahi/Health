@@ -51,7 +51,7 @@ const IndexPage = () => (
               </ul>
               <p className="address mb-5">
                 <em>
-                  <strong>V</strong>
+                  <strong>Address</strong>
                   <br />
                   Van Duivenvoordelaan 41, 2241SN Wassenaar.
                 </em>
