@@ -73,7 +73,9 @@ const IndexPage = () => (
 
         <form
           class="contact-form d-flex flex-column align-items-center"
-          action="POST"
+          name="contact"
+          method="POST"
+          data-netlify-recaptcha="true"
           data-netlify="true"
         >
           <div class="form-group w-75">
@@ -105,9 +107,8 @@ const IndexPage = () => (
               required
             ></textarea>
           </div>
-          <div className="field">
-            <div data-netlify-recaptcha="true"></div>
-          </div>
+
+          <div data-netlify-recaptcha="true"></div>
 
           <button type="submit" class="btn btn-submit btn-info w-75">
             Submit
