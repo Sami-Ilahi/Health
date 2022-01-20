@@ -67,6 +67,53 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
+
+      <div className="container">
+        <h2 className="form ">Heeft u een vraag ? Mail het ons.</h2>
+
+        <form
+          class="contact-form d-flex flex-column align-items-center"
+          action="POST"
+          data-netlify="true"
+        >
+          <div class="form-group w-75">
+            <input
+              type="name"
+              class="form-control"
+              placeholder="Name"
+              name="name"
+              required
+            />
+          </div>
+          <div class="form-group w-75">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Email"
+              name="name"
+              required
+            />
+          </div>
+
+          <div class="form-group w-75">
+            <textarea
+              class="form-control"
+              type="text"
+              placeholder="Message"
+              rows="7"
+              name="name"
+              required
+            ></textarea>
+          </div>
+          <div className="field">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+
+          <button type="submit" class="btn btn-submit btn-info w-75">
+            Submit
+          </button>
+        </form>
+      </div>
     </section>
   </Layout>
 );
