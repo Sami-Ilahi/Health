@@ -10,13 +10,8 @@ import Header from './Header';
 
 class Layout extends Component {
   render() {
-    const {
-      children,
-      noHeader,
-      noFooter,
-      noSiteHeader,
-      activeLink,
-    } = this.props;
+    const { children, noHeader, noFooter, noSiteHeader, activeLink } =
+      this.props;
     return (
       <StaticQuery
         query={graphql`
@@ -28,12 +23,12 @@ class Layout extends Component {
             }
           }
         `}
-        render={data => (
+        render={(data) => (
           <>
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Casual' },
+                { name: 'description', content: 'ZORG ​EN DIENSTEN SERVICE' },
                 { name: 'keywords', content: 'site, web' },
               ]}
             >

@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'F.RKAIEK ZORG & DIENSTEN SERVICE', // <title>
+  siteTitle: 'DHR.F.RKAIEK ', // <title>
   manifestName: 'F.RKAIEK',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -8,6 +8,6 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/F.RKAIEK/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'F.RKAIEK',
+  heading: 'DHR.F.RKAIEK',
   subHeading: 'zorg ​en diensten Service',
 };

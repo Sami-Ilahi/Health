@@ -70,7 +70,7 @@ export default class Header extends Component {
                   className="nav-link text-uppercase text-expanded"
                   to="/products"
                 >
-                  Wat wij bieden
+                  Wat Ik bid
                 </Link>
               </li>
               <li

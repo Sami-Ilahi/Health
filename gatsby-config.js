@@ -4,6 +4,7 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
+    image: './assets/img/f.logo.png',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
