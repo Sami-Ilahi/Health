@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Footer() {
+const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
@@ -13,7 +13,7 @@ export default function Footer() {
             <a
               href="https://www.linkedin.com/in/sami-ilahi/"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               SAMI ILAHI
             </a>
@@ -22,4 +22,6 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;

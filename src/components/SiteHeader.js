@@ -1,7 +1,8 @@
 import React from 'react';
 import config from '../../config';
 import Logo from '../assets/img/f.logo.png';
-export default function SiteHeader() {
+
+const SiteHeader = () => {
   return (
     <h1 className="site-heading text-center text-white d-none d-lg-block">
       <img src={Logo} alt="logo" width={70} color="white" />
@@ -11,4 +12,5 @@ export default function SiteHeader() {
       <span className="site-heading-lower">{config.heading}</span>
     </h1>
   );
-}
+};
+export default SiteHeader;
